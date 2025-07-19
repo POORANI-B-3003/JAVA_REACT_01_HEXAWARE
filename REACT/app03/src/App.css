@@ -1,0 +1,34 @@
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #7e0000;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  background-color: #ffc1c1;
+}
+
+.card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
