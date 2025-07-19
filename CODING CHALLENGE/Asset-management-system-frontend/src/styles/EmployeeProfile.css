@@ -1,0 +1,41 @@
+/* Center everything inside the profile card */
+.MuiPaper-root {
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(89, 50, 234, 0.1);
+  background-color: #f9f9f9;
+}
+
+/* Style for the avatar and name block */
+.MuiAvatar-root {
+  border: 3px solid #5932EA;
+}
+
+.MuiTypography-h5 {
+  font-weight: 600;
+  color: #222;
+}
+
+/* Light text for labels */
+.MuiTypography-subtitle2 {
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* Slight spacing below each data field */
+.MuiGrid-item {
+  margin-bottom: 8px;
+}
+
+/* Divider spacing */
+.MuiDivider-root {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+.audit-page, .MuiContainer-root {
+  padding-bottom: 40px;
+}
